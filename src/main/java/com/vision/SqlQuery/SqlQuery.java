@@ -19,7 +19,6 @@ public class SqlQuery {
     
     Session session=factory.openSession();
 
-
     String q1= "select * from Information_Technology where id = 4";
     
     NativeQuery a = session.createSQLQuery(q1);
